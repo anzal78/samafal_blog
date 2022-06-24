@@ -1,0 +1,392 @@
+
+ :root{
+	--pink: #e84393;
+
+}
+ 	
+
+ *{
+ 	margin: 0; padding: 0;
+ 	box-sizing: border-box;
+ 	font-family: verdana , geneva, tahoma, sans-serif;
+ 	outline: none; border: none;
+ 	text-decoration: none;
+ 	text-transform: capitalize;
+ 	transition: .2s linear;
+
+ }
+ html{
+ 	font-size: 62.5%;
+ 	scroll-behavior: smooth;
+ 	scroll-padding-top: 6rem;
+ 	overflow-x: hidden;
+ }
+
+ }
+.btn{
+	display: inline-block;
+	margin-top: 1rem;
+	border-radius: 5rem;
+	background: #333;
+	color: #fff;
+	padding: 9rem 3.5rem;
+	cursor: pointer;
+	font-size: 1.7rem;
+
+}
+.btn:hover{
+	background: var(--pink);
+}
+
+
+
+ header{
+ 	position: fixed;
+ 	top: 0; left: 0; right: 0;
+ 	background: #fff;
+ 	padding: 2rem 9%;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+ 	z-index: 1000;
+ 	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+ }
+
+
+header .logo{
+	font-size: 3rem;
+	color: #333;
+	font-weight: bolder;
+	text-align: left;
+	padding-right: 5rem;
+
+}
+
+
+
+header .logo span{
+	color: var(--pink);
+}
+
+
+
+	header .navbar a{
+		font-size: 2rem;
+		padding: 0 2.5rem;
+		color: #666;
+
+	}
+
+
+header .navbar a:hover{
+	color: var(--pink);
+}
+
+
+
+header .icons a{
+	font-size: 2.5rem;
+	color: #333;
+	margin-left: 0.5rem;
+}
+
+
+header .icons a:hover{
+	color: var(--pink);
+}
+
+header #toggler{
+	display: none;
+
+}
+
+header .fa-bars{
+	font-size: 3rem;
+	color: #333;
+	border-radius: .5rem;
+	padding: .5rem 1.5rem;
+	cursor: pointer;
+
+
+}
+	
+
+
+.home{
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+	background: url(file:///C:/Users/KAM/Downloads/pexels-andrea-piacquadio-3890520.jpg);
+	background-size: cover;
+	background-position: center;
+
+
+
+
+
+
+
+}
+.home .content{
+	max-width: 50rem;
+}
+
+.home .content h3{
+	font-size: 4rem;
+	color: #333;
+	text-align: center;
+
+}
+
+.home .content span{
+	font-size: 2.5rem;
+	color: var(--pink);
+	padding: 1rem 0;
+	line-height: 1.5;
+	text-align: center;
+	margin-left: 13rem;
+} 
+.home .content p{
+	font-size: 1rem;
+	color: #999
+	padding: 1rem 0;
+	line-height: 1.5;
+	text-align: center;
+	margin-left: 13rem;
+
+
+}
+
+
+.about
+    width: 100%;
+    height: 730px;
+    background:rgba(236, 64, 185, 0.5);
+}
+
+.type{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0px auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.about img{
+    width: 500px;
+    height: auto;
+    padding:110px 0 ;
+}
+.type{
+    width: 1330px;
+    max-width: 100%;
+    margin: 0px auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.about-text{
+    width: 560px;
+}
+.about-text h1{
+    font-size: 73px;
+    color:black;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+margin-bottom: 20px;
+}
+.about-text h1 span{
+    color: rgb(250, 1, 175);
+}
+.about-text h4{
+    font-size: 50px;
+    color: rgb(250, 1, 175);
+    text-transform: capitalize;
+    letter-spacing: 5px;
+     margin-bottom: 5px;
+}
+.about-text p{
+    font-size: 23px;
+    color: black;
+    letter-spacing: 1px;
+     margin-bottom: 10px;
+}
+
+.about-text p span{
+    color: rgb(250, 1, 175);
+    text-transform: capitalize;
+}
+.about-btn{
+    width:100px;
+    height: 30px;
+    margin-left: 150px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color:rgb(245, 245, 245);
+    background: rgb(250, 1, 175);
+    border: 1px solid transparent;
+    border-radius:15px;
+    margin-bottom: 20px;
+}
+.about-btn:hover{
+    opacity:0.4;
+    transition: 0.9s;
+
+
+
+}
+
+
+
+
+
+.services{
+    width: 100%;
+    height:890px;
+    background: rgba(236, 64, 185, 0.5);
+    
+}
+.services h1{
+    text-align: center;
+    font-size: 50px;
+ text-transform: uppercase;
+ color: whitesmoke;
+ padding: 60px 0;
+}
+.services h1 span{
+ text-transform: uppercase;
+ color: rgb(250, 1, 175);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 650px;
+    padding: 4px 10px;
+}
+
+.container .card{
+    width: 400px;
+    height: 270px;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 35px;
+}
+ .container .card .img{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+background: url(file:///C:/Users/KAM/OneDrive/Desktop/product/18.jpeg) no-repeat center center/cover;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: .7s;
+}
+.container .card .img:hover{
+    background: url(file:///C:/Users/KAM/OneDrive/Desktop/product/9.jpeg) no-repeat center center/cover;
+} 
+ .container .card .img1{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    background: url(file:///C:/Users/KAM/OneDrive/Desktop/product/5.jpg) no-repeat center center/cover;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition:.7s;
+}
+.container .card .img1:hover{
+    background: url(file:///C:/Users/KAM/OneDrive/Desktop/product/4.jpg) no-repeat center center/cover;
+} 
+
+ .container .card .img2{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    background: url(file:///C:/Users/KAM/OneDrive/Desktop/product/7.jpeg) no-repeat center center/cover;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: .7s;
+}
+.container .card .img2:hover{
+    background: url(file:///C:/Users/KAM/OneDrive/Desktop/product/10.jpeg) no-repeat center center/cover;
+} 
+.container .card .img3{
+    width: 400px;
+    height: 250px;;
+    border-radius: 10px;
+    background: url(file:///C:/Users/KAM/OneDrive/Desktop/product/14.jpeg) no-repeat center center/cover;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: .7s;
+}
+.container .card .img3:hover{
+    background: url(file:///C:/Users/KAM/OneDrive/Desktop/product/20.jpeg) no-repeat center center/cover;
+} 
+ .container .card .img4{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    background: url(file:///C:/Users/KAM/OneDrive/Desktop/product/3.jpeg) no-repeat center center/cover;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: .7s;
+}
+.container .card .img4:hover{
+    background: url(file:///C:/Users/KAM/OneDrive/Desktop/product/15.jpeg) no-repeat center center/cover;
+} 
+.container .card .img5{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    background: url(file:///C:/Users/KAM/OneDrive/Desktop/product/13.jpg) no-repeat center center/cover;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: .7s;
+}
+.container .card .img5:hover{
+    background: url(file:///C:/Users/KAM/OneDrive/Desktop/product/16.jpeg) no-repeat center center/cover;
+}
+
+.container .card .btn{
+    margin-left: 150px;
+   width: 100px;
+   height: 30px;
+   background: whitesmoke;
+   border:1px solid transparent ;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: .7s;
+  }
+
+  .container .card .btn:hover{
+      background:transparent !important ;
+      border:1px solid whitesmoke;
+      color: whitesmoke;
+  }
+
+
+footer{
+	font-size: 45px;
+	color: black;
+	text-align: center;
+	background: blanchedalmond;
+
+}
+
+
+
+
+
+
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:;
+
+}
+
+

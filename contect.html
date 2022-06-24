@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> document baby shop</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/F2/1.4.5/f2.min.js">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style >
+		
+		
+root{
+	--pink: #e84393;
+
+}
+ 	
+
+ *{
+ 	margin: 0; padding: 0;
+ 	box-sizing: border-box;
+ 	font-family: verdana , geneva, tahoma, sans-serif;
+ 	outline: none; border: none;
+ 	text-decoration: none;
+ 	text-transform: capitalize;
+ 	transition: .2s linear;
+
+ }
+ html{
+ 	font-size: 62.5%;
+ 	scroll-behavior: smooth;
+ 	scroll-padding-top: 6rem;
+ 	overflow-x: hidden;
+
+ }
+
+ }
+.btn{
+	display: inline-block;
+	margin-top: 1rem;
+	border-radius: 5rem;
+	background: #333;
+	color: blue;
+	padding: 9rem 3.5rem;
+	cursor: pointer;
+	font-size: 1.7rem;
+
+}
+.btn:hover{
+	background: var(--pink);
+}
+
+
+
+ header{
+ 	position: fixed;
+ 	top: 0; left: 0; right: 0;
+ 	background: #fff;
+ 	padding: 1rem 5%;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+ 	z-index: 1000;
+ 	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+ 	background: var(--pink);
+
+ }
+
+
+header .logo{
+	font-size: 3rem;
+	color: white;
+	font-weight: bolder;
+	text-align: left;
+	padding-right: 5rem;
+
+}
+
+
+
+header .logo span{
+	color: white;
+}
+
+
+
+	header .navbar a{
+		font-size: 2rem;
+		padding: 1 2.5rem;
+		color:white;
+
+	}
+
+
+header .navbar a:hover{
+	color: blue;
+}
+
+
+
+header .icons a{
+	font-size: 2.5rem;
+	color: white;
+	margin-left: 0.5rem;
+}
+
+
+header .icons a:hover{
+	color: blue;
+}
+
+header #toggler{
+	display: none;
+
+}
+
+header .fa-bars{
+	font-size: 3rem;
+	color: white;
+	border-radius: .5rem;
+	padding: .5rem 1.5rem;
+	cursor: pointer;
+
+}
+
+header .fa-bars a:hover{
+
+	color: blue;
+
+}
+
+
+	
+
+
+.home{
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+	background: url(file:///C:/Users/KAM/Downloads/pexels-andrea-piacquadio-3890520.jpg);
+	background-size: cover;
+	background-position: center;
+
+
+}
+ 
+
+ 
+
+
+
+
+
+
+
+
+		
+body{
+	margin: 0;
+	padding: 0;
+	background: url(file:///C:/Users/KAM/Downloads/pexels-s-migaj-747964.jpg);
+
+	background-size: cover;
+}
+
+
+.contect_form{
+	width: 500px;
+	max-width: 600px;
+	background: #f1f1f1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 30px 40px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	text-align: center;
+	box-shadow: 0 0 50px #000000b3;
+
+
+}
+.contect_form h1{
+	margin-top: 0;
+	font-weight: 200;
+}
+
+
+
+.txtb{
+	border: 1px solid gray;
+	margin: 8px 0;
+	padding: 12px 18px;
+	border-radius: 8px;
+
+}
+
+.txtb label{
+	display: block;
+	text-align: left;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 14px;
+
+}
+
+
+.txtb input,.txtb textarea {
+	width: 100%;
+	border: none;
+	background: none;
+	outline: none;
+	font-size: 18px;
+	margin-top: 6px;
+
+}
+
+.btn{
+	display: inline-block;
+	background:#9b59b6;
+	padding: 14px 0;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-top: 8px;
+	width: 100%;
+}
+
+
+
+
+	</style>
+</head>
+<body>
+		<header>
+		<input type="checbox" name="" id="toggler">
+		<label for="toggler" class="fas fa-bars"></label>
+	
+
+
+<a href="#" class="logo">Bayb Shop<span>.</span></a>
+<nav class="navbar">
+
+	<a href="#home">home</a>
+	<a href="#about">About</a>
+	<a href="#product">products</a>
+	<a href="ourteam.html" our team>our team</a>
+	<a href="contect.html">contect</a>
+
+
+</nav>
+<div class="icons">
+	<a href="#" class="fas fa-"><i class="fa fa-heart" aria-hidden="true"></i></a>
+	<a href="#" class="fas fa-shoppinf-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+	<a href="#" class="fas fa-"><i class="fa fa-user" aria-hidden="true"></i></a>
+
+
+</div>
+
+</header>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+	<div class="contect_form">
+		<h1> Contect Us</h1>
+		<div class="txtb">
+			<label> Full Name</label>
+			<input type="text" name="" value="" placeholder="Enter Your Name">
+		</div>
+		<div class="txtb">
+			<label> Email</label>
+			<input type="text" name="" value="" placeholder="Enter Your Email">
+		</div>
+
+		<div class="txtb">
+			<label> Phone Number</label>
+			<input type="text" name="" value="" placeholder="Enter Your Pthone Number">
+		</div>
+
+
+			<div class="txtb">
+				<label>Message</label>
+				<textarea></textarea>
+			</div>
+
+
+<a class="btn">Send</a>
+
+
+
+
+
+
+</body>
+</html>
